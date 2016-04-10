@@ -5,7 +5,7 @@
 
 ```
 docker pull remijouannet/docker-tinyproxy
-docker run -d -p 8859:8859 remijouannet/docker-murmur
+docker run -d -p 8859:8859 remijouannet/docker-tinyproxy
 ```
 
 
