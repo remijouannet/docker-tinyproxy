@@ -11,6 +11,6 @@ COPY . /app/
 RUN chmod a+r /app/tinyproxy.conf
 RUN chmod u+x /app/run.sh
 
-EXPOSE 8859/tcp
+EXPOSE 8859:8859
 
 CMD ["/app/run.sh"]
